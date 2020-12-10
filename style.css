@@ -1,0 +1,42 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+  line-height: 1.7;
+  background-color: antiquewhite;
+}
+
+.container {
+  display: grid;
+  grid-template-columns:
+    [container-start] 1fr [center-start] repeat(
+      10,
+      [col-start] minmax(min-content, 110px) [col-end]
+    )
+    [center-end] 1fr[container-end];
+
+  grid-template-rows: 100vh repeat(8, min-content);
+}
+
+/* Main styling */
+
+#header {
+  background-color: aqua;
+  grid-column: 1 / 13;
+}
+
+#about-me {
+  background-color: pink;
+  grid-column: 2 / 7;
+  height: 400px;
+}
+
+#contact-me {
+  background-color: plum;
+  grid-column: 7 / 12;
+  height: 400px;
+}
+
+#posts {
+  background-color: sandybrown;
+  grid-column: container-start / container-end;
+  height: 400px;
+}
