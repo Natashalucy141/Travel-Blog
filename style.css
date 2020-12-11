@@ -16,6 +16,25 @@ body {
   grid-template-rows: 100vh repeat(8, min-content);
 }
 
+/* Anchor tag styling*/
+a:link,
+a:visited {
+  color: purple;
+  text-decoration: none;
+  position: relative;
+  transition-timing-function: cubic-bezier(1, 0, 0, 1);
+  z-index: 1;
+}
+
+p {
+  color: white;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 4rem;
+}
+
 /* Main styling */
 
 #header {
@@ -84,7 +103,7 @@ body {
 
 #testimonals {
   background-color: lightgreen;
-  grid-column: container-start / container-end;
+  grid-column: center-start / center-end;
   height: 400px;
 }
 #footer {
