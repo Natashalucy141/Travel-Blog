@@ -19,7 +19,7 @@ body {
 /* Main styling */
 
 #header {
-  background-color: aqua;
+  background-color: paleturquoise;
   grid-column: 1 / 13;
 }
 
@@ -37,6 +37,58 @@ body {
 
 #posts {
   background-color: sandybrown;
+  grid-column: container-start / container-end;
+  height: 400px;
+}
+
+#moto {
+  background-color: violet;
+  grid-column: container-start / container-end;
+  height: 400px;
+}
+
+#event-content {
+  background-color: thistle;
+  grid-column: container-start / col-end 9;
+  height: 400px;
+}
+
+#event-date {
+  background-color: palegoldenrod;
+  grid-column: col-start 10 / container-end;
+  height: 400px;
+}
+
+#gallery-text {
+  background-color: palegreen;
+  grid-column: center-start / col-end 1;
+  height: 400px;
+}
+
+#gallery-carousel {
+  background-color: paleturquoise;
+  grid-column: col-start 2 / container-end;
+}
+
+#feature-content {
+  background-color: pink;
+  grid-column: container-start / col-end 9;
+  height: 400px;
+}
+
+#feature-date {
+  background-color: plum;
+  grid-column: col-start 10 / center-end;
+  height: 400px;
+}
+
+#testimonals {
+  background-color: lightgreen;
+  grid-column: container-start / container-end;
+  height: 400px;
+}
+#footer {
+  background-color: paleturquoise;
   grid-column: container-start / container-end;
   height: 400px;
 }
