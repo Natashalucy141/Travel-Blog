@@ -63,7 +63,7 @@ li {
 
 #villas {
   grid-column: container-start / container-end;
-
+  background-color: yellow;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 2rem;
@@ -75,10 +75,7 @@ li {
 .villa_villa-4,
 .villa_villa-5,
 .villa_villa-6 {
-  background-color: sandybrown;
   padding: 2rem;
-  /* background-position: ;*/
-  /*background-size: ;*/
 }
 
 .villa_villa-1-title,
@@ -100,6 +97,41 @@ li {
   color: white;
 }
 
+.villa_villa-1 {
+  background: url("images/Villas/villa-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.villa_villa-2 {
+  background: url("images/Villas/villa-2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.villa_villa-3 {
+  background: url("images/Villas/villa-3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.villa_villa-4 {
+  background: url("images/Villas/villa-4.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.villa_villa-5 {
+  background: url("images/Villas/villa-5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.villa_villa-6 {
+  background: url("images/Villas/villa-6.jpg");
+  background-position: center;
+  background-size: cover;
+}
 #moto {
   background-color: violet;
   grid-column: container-start / container-end;
