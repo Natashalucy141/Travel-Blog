@@ -217,10 +217,11 @@ section#event-text-section {
   /*transform: rotate(-0.25turn);*/
 }
 
-#gallery-carousel {
+section#gallery-carousel {
   background-color: paleturquoise;
   grid-column: col-start 2 / container-end;
-  height: 400px;
+  height: 90vh;
+  overflow: hidden; /* cant see any other images spilliling out of this container*/
 }
 
 #feature-content {
