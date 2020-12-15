@@ -61,12 +61,11 @@ li {
   height: 400px;
 }
 
-#villas {
+section#villas {
   grid-column: container-start / container-end;
-  background-color: yellow;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 2rem;
+  grid-gap: 1rem;
 }
 
 .villa_villa-1,
@@ -132,10 +131,22 @@ li {
   background-position: center;
   background-size: cover;
 }
-#moto {
-  background-color: violet;
+section#moto {
+  background-color: burlywood;
   grid-column: container-start / container-end;
-  height: 400px;
+  height: 300px;
+}
+
+.moto-title {
+  font-weight: 300;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.moto-para {
+  width: 80%;
+  margin: 0 auto; /* left and right margin is 0 to center it */
+  text-align: center;
 }
 
 #event-content {
