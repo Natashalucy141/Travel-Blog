@@ -197,10 +197,23 @@ section#event-text-section {
   transform: rotate(0.25turn);
 }
 
-#gallery-text {
+#gallery-text-section {
   background-color: palegreen;
   grid-column: center-start / col-end 1;
   height: 400px;
+  place-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.gallery-text-title {
+  text-transform: uppercase;
+
+  font-weight: 500;
+  color: white;
+  letter-spacing: 1rem;
+  transform: rotate(-0.25turn);
 }
 
 #gallery-carousel {
