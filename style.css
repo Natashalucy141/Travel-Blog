@@ -38,7 +38,6 @@ li {
 /* Main styling */
 
 #header {
-  background-color: paleturquoise;
   grid-column: 1 / 13;
   background: url("images/hero.jpg");
   /* background url shorthand and not background image
@@ -55,7 +54,7 @@ li {
   height: 400px;
 }
 
-#contact-me {
+#booking {
   background-color: plum;
   grid-column: 7 / 12;
   height: 400px;
@@ -149,13 +148,34 @@ section#moto {
   text-align: center;
 }
 
-#event-content {
+section#event-content {
   background-color: thistle;
   grid-column: container-start / col-end 9;
-  height: 400px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-#event-date {
+.event-content-title {
+  font-weight: 300;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+.event-content_event-1 {
+  background: url("images/Events/beach-party.jpg");
+
+  background-position: center;
+  background-size: cover;
+}
+
+.event-content_event-2 {
+  background: url("images/Events/culture-discovery.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#event-text {
   background-color: palegoldenrod;
   grid-column: col-start 10 / container-end;
   height: 400px;
