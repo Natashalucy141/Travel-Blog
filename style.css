@@ -167,18 +167,34 @@ section#event-content {
 
   background-position: center;
   background-size: cover;
+  padding: 2rem;
 }
 
 .event-content_event-2 {
   background: url("images/Events/culture-discovery.jpg");
   background-position: center;
   background-size: cover;
+  padding: 2rem;
 }
 
-#event-text {
+section#event-text-section {
   background-color: palegoldenrod;
   grid-column: col-start 10 / container-end;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
   height: 400px;
+  place-items: center;
+}
+
+.event-text-title {
+  text-transform: uppercase;
+
+  font-weight: 500;
+  color: white;
+  letter-spacing: 1rem;
+  transform: rotate(0.25turn);
 }
 
 #gallery-text {
