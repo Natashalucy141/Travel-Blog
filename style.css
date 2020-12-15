@@ -19,7 +19,7 @@ body {
 /* Anchor tag styling*/
 a:link,
 a:visited {
-  color: purple;
+  color: white;
   text-decoration: none;
   position: relative;
   transition-timing-function: cubic-bezier(1, 0, 0, 1);
@@ -40,6 +40,13 @@ li {
 #header {
   background-color: paleturquoise;
   grid-column: 1 / 13;
+  background: url("images/hero.jpg");
+  /* background url shorthand and not background image
+  that way we can apply more than one background */
+  /*background: rgb(161, 154, 154);*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 #about-me {
@@ -54,10 +61,43 @@ li {
   height: 400px;
 }
 
-#posts {
-  background-color: sandybrown;
+#villas {
   grid-column: container-start / container-end;
-  height: 400px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+.villa_villa-1,
+.villa_villa-2,
+.villa_villa-3,
+.villa_villa-4,
+.villa_villa-5,
+.villa_villa-6 {
+  background-color: sandybrown;
+  padding: 2rem;
+  /* background-position: ;*/
+  /*background-size: ;*/
+}
+
+.villa_villa-1-title,
+.villa_villa-2-title,
+.villa_villa-3-title,
+.villa_villa-4-title,
+.villa_villa-5-title,
+.villa_villa-6-title {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.villa_villa-1-para,
+.villa_villa-2-para,
+.villa_villa-3-para,
+.villa_villa-4-para,
+.villa_villa-5-para,
+.villa_villa-6-para {
+  color: white;
 }
 
 #moto {
@@ -110,4 +150,74 @@ li {
   background-color: paleturquoise;
   grid-column: container-start / container-end;
   height: 400px;
+}
+
+.header-main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.header-main-nav input[type="checkbox"] {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  height: 5rem;
+  width: 5rem;
+  opacity: 0;
+  cursor: pointer;
+
+  z-index: 3;
+}
+
+#discover-more-btn {
+  text-align: center;
+}
+
+a:hover {
+  background-color: #560d0d;
+  padding: 10px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.header-main-hamburger {
+  position: absolute;
+  top: 3rem;
+  left: 3rem;
+  height: 5rem;
+  width: 5rem;
+  padding: 0rem;
+  z-index: 2;
+  background-color: yellow;
+  display: grid;
+  place-items: center;
+}
+
+.header-main-hamburger > div {
+  position: relative;
+  height: 0.3rem;
+  width: 100%;
+}
+
+.title-discover-serentity {
+  font-weight: 300;
+}
+
+.header_button {
+  border: 3px solid #560d0d;
+}
+
+#main-title {
+  font-size: 100px;
+  font-weight: 300;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#main-discription-header {
+  text-align: center;
+  font-weight: 300;
+  font-size: 30px;
 }
