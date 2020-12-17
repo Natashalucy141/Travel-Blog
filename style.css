@@ -280,10 +280,26 @@ section#gallery-carousel {
 
 /* carousel Nav*/
 .gallery-carousel_nav {
-  background-color: red;
   position: absolute;
   bottom: 0;
   left: 35%;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+
+.gallery-carousel_nav-btn {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  background-color: yellow;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.current-img {
+  background-color: brown;
 }
 
 #feature-content {
