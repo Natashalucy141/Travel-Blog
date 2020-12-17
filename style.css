@@ -278,6 +278,14 @@ section#gallery-carousel {
   right: 0;
 }
 
+/* carousel Nav*/
+.gallery-carousel_nav {
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+  left: 35%;
+}
+
 #feature-content {
   background-color: pink;
   grid-column: container-start / col-end 9;
