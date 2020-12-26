@@ -302,13 +302,54 @@ section#gallery-carousel {
   background-color: brown;
 }
 
-#feature-content {
-  background-color: pink;
+section#feature-content {
+  background-color: thistle;
   grid-column: container-start / col-end 9;
   height: 400px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
-#feature-date {
+.features-content-title-1,
+.features-content-title-2 {
+  font-weight: 300;
+  margin-left: 30px;
+  text-transform: uppercase;
+}
+
+.feature-text-title {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: white;
+  letter-spacing: 1rem;
+  transform: rotate(00.25turn);
+}
+
+#feature-side-text-box {
+  background-color: pink;
+  grid-column: col-start 10 / container-end;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  height: 400px;
+  place-items: center;
+}
+
+.features-content-features-1 {
+  background: url("images/Features/cocktail.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 2rem;
+}
+
+.features-content-features-2 {
+  background: url("images/Features/surfing.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 2rem;
+}
+
+#feature-side-text {
   background-color: plum;
   grid-column: col-start 10 / center-end;
   height: 400px;
