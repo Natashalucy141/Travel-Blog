@@ -355,18 +355,17 @@ section#feature-content {
   height: 400px;
 }
 
-section#testimonals {
-  background-color: lightgreen;
+section#testimonials {
   grid-column: center-start / center-end;
   display: grid;
-  grid-template-columns: repeat(auto-fit, 28rem);
+  grid-template-columns: repeat(auto-fit, 15rem);
   grid-gap: 5rem;
   place-content: center;
 }
 
 .testimonials_card {
-  width: 28rem;
-  height: 50rem;
+  width: 15rem;
+  height: 28rem;
   position: relative;
 }
 
@@ -384,6 +383,7 @@ section#testimonals {
   transition: all 1s ease-in-out;
   backface-visibility: hidden; /*to see the yellow side of the card and not the image*/
   transform: perspective(100rem);
+
   display: grid;
   justify-items: center;
   align-items: start;
@@ -404,6 +404,26 @@ section#testimonals {
 
 .testimonials_card:first-child .testimonials_card-front {
   background-image: url("images/Testimonials/testimonials-1.jpg");
+}
+
+.testimonials_card:nth-child(2) .testimonials_card-front {
+  background-image: url("images/Testimonials/testimonials-2.jpg");
+}
+
+.testimonials_card:nth-child(3) .testimonials_card-front {
+  background-image: url("images/Testimonials/testimonials-3.jpg");
+}
+
+.testimonials_card:nth-child(4) .testimonials_card-front {
+  background-image: url("images/Testimonials/testimonials-4.jpg");
+}
+
+.testimonials_card:nth-child(5) .testimonials_card-front {
+  background-image: url("images/Testimonials/testimonials-5.jpg");
+}
+
+.testimonials_card:nth-child(6) .testimonials_card-front {
+  background-image: url("images/Testimonials/testimonials-6.jpg");
 }
 
 .testimonials_card-back {
