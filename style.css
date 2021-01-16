@@ -361,6 +361,7 @@ section#testimonials {
   grid-template-columns: repeat(auto-fit, 15rem);
   grid-gap: 8rem;
   place-content: center;
+  padding-top: 30px;
 }
 
 .testimonials_card {
