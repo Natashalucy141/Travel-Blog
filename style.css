@@ -39,7 +39,8 @@ li {
 
 #header {
   grid-column: 1 / 13;
-  background: url("images/hero.jpg");
+  background: linear-gradient(rgba(29, 38, 113, 0.6), rgba(195, 55, 100, 0.4)),
+    url("images/hero.jpg");
   /* background url shorthand and not background image
   that way we can apply more than one background */
   /*background: rgb(161, 154, 154);*/
