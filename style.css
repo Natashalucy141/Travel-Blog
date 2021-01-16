@@ -39,7 +39,7 @@ li {
 
 #header {
   grid-column: 1 / 13;
-  background: linear-gradient(rgba(29, 38, 113, 0.6), rgba(195, 55, 100, 0.4)),
+  background: linear-gradient(rgba(195, 55, 100, 0.4), rgba(29, 38, 113, 0.2)),
     url("images/hero.jpg");
   /* background url shorthand and not background image
   that way we can apply more than one background */
@@ -50,13 +50,16 @@ li {
 }
 
 #about-me {
-  background-color: pink;
   grid-column: 2 / 7;
   height: 400px;
 }
 
+#about-me p {
+  color: #730039;
+  padding-top: 20px;
+}
+
 #booking {
-  background-color: plum;
   grid-column: 7 / 12;
   height: 400px;
 }
@@ -97,31 +100,42 @@ section#villas {
 }
 
 .villa_villa-1 {
-  background: url("images/Villas/villa-1.jpg");
+  background: linear-gradient(
+      rgba(244, 165, 142, 0.6),
+      rgba(182, 114, 134, 0.4)
+    ),
+    url("images/Villas/villa-1.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .villa_villa-2 {
-  background: url("images/Villas/villa-2.jpg");
+  background: linear-gradient(rgba(29, 38, 113, 0.6), rgba(195, 55, 100, 0.4)),
+    url("images/Villas/villa-2.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .villa_villa-3 {
-  background: url("images/Villas/villa-3.jpg");
+  background: linear-gradient(rgba(29, 38, 113, 0.6), rgba(195, 55, 100, 0.4)),
+    url("images/Villas/villa-3.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .villa_villa-4 {
-  background: url("images/Villas/villa-4.jpg");
+  background: linear-gradient(rgba(29, 38, 113, 0.6), rgba(195, 55, 100, 0.4)),
+    url("images/Villas/villa-4.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .villa_villa-5 {
-  background: url("images/Villas/villa-5.jpg");
+  background: linear-gradient(
+      rgba(244, 165, 142, 0.6),
+      rgba(182, 114, 134, 0.4)
+    ),
+    url("images/Villas/villa-5.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -134,18 +148,20 @@ section#villas {
 }
 
 section#moto {
-  background-color: burlywood;
   grid-column: container-start / container-end;
   height: 300px;
 }
 
 .moto-title {
   font-weight: 300;
+  font-size: 40px;
   text-align: center;
+  color: black;
   text-transform: uppercase;
 }
 
 .moto-para {
+  color: #730039;
   width: 80%;
   margin: 0 auto; /* left and right margin is 0 to center it */
   text-align: center;
@@ -166,7 +182,8 @@ section#event-content {
 }
 
 .event-content_event-1 {
-  background: url("images/Events/beach-party.jpg");
+  background: linear-gradient(rgba(251, 215, 123, 0.8), rgba(195, 55, 100, 0.4)),
+    url("images/Events/beach-party.jpg");
 
   background-position: center;
   background-size: cover;
@@ -174,7 +191,8 @@ section#event-content {
 }
 
 .event-content_event-2 {
-  background: url("images/Events/culture-discovery.jpg");
+  background: linear-gradient(rgba(29, 38, 113, 0.6), rgba(195, 55, 100, 0.4)),
+    url("images/Events/culture-discovery.jpg");
   background-position: center;
   background-size: cover;
   padding: 2rem;
@@ -201,7 +219,7 @@ section#event-text-section {
 }
 
 #gallery-text-section {
-  background-color: palegreen;
+  background-color: #ffb396;
   grid-column: center-start / col-end 1;
   height: 400px;
   place-items: center;
@@ -300,7 +318,7 @@ section#gallery-carousel {
 }
 
 .current-img {
-  background-color: brown;
+  background-color: #730039;
 }
 
 section#feature-content {
@@ -337,14 +355,16 @@ section#feature-content {
 }
 
 .features-content-features-1 {
-  background: url("images/Features/cocktail.jpg");
+  background: linear-gradient(rgba(251, 215, 123, 0.8), rgba(195, 55, 100, 0.4)),
+    url("images/Features/cocktail.jpg");
   background-position: center;
   background-size: cover;
   padding: 2rem;
 }
 
 .features-content-features-2 {
-  background: url("images/Features/surfing.jpg");
+  background: linear-gradient(rgba(251, 215, 123, 0.8), rgba(195, 55, 100, 0.4)),
+    url("images/Features/surfing.jpg");
   background-position: center;
   background-size: cover;
   padding: 2rem;
@@ -393,7 +413,7 @@ section#testimonials {
 }
 .testimonials_card-front h2 {
   font-size: 15px;
-  background-color: purple;
+  background-color: #730039;
   padding: 1rem;
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
@@ -431,7 +451,7 @@ section#testimonials {
 
 .testimonials_card-back {
   transform: perspective(100rem) rotateY(0.5turn);
-  background-color: #ffcd19;
+  background-color: paleturquoise;
 }
 
 .testimonials_card:hover .testimonials_card-front {
@@ -468,17 +488,18 @@ section#testimonials {
 }
 
 a:hover {
-  background-color: #560d0d;
+  background-color: #730039;
   padding: 10px;
   transition: background-color 0.2s ease-in-out;
 }
 
 .title-discover-serentity {
   font-weight: 300;
+  padding-top: 10px;
 }
 
 .header_button {
-  border: 3px solid #560d0d;
+  border: 3px solid #730039;
 }
 
 #main-title {
