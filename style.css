@@ -214,6 +214,7 @@ section#event-text-section {
   color: white;
   letter-spacing: 1rem;
   transform: rotate(270deg);
+
   /*transform: rotate(-0.25turn);*/
 }
 
@@ -444,7 +445,15 @@ section#testimonials {
 #footer {
   background-color: paleturquoise;
   grid-column: container-start / container-end;
-  padding: 6vh 4vw;
+  padding-top: 150px;
+  padding-bottom: 50px;
+  text-align: center;
+
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#footer p {
+  color: #560d0d;
 }
 
 .header-main-nav {
