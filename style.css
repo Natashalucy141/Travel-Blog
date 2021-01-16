@@ -126,10 +126,12 @@ section#villas {
 }
 
 .villa_villa-6 {
-  background: url("images/Villas/villa-6.jpg");
+  background: linear-gradient(rgba(29, 38, 113, 0.6), rgba(195, 55, 100, 0.4)),
+    url("images/Villas/villa-6.jpg");
   background-position: center;
   background-size: cover;
 }
+
 section#moto {
   background-color: burlywood;
   grid-column: container-start / container-end;
@@ -219,18 +221,15 @@ section#event-text-section {
 }
 
 section#gallery-carousel {
-  background-color: paleturquoise;
   grid-column: col-start 2 / container-end;
   height: 100vh;
   overflow: hidden; /* cant see any other images spilliling out of this container*/
-  border: solid 2px yellow;
   position: relative;
 }
 
 /* Image container */
 
 .gallery-carousel_img-container {
-  background-color: lawngreen;
   height: 100%;
   width: 100%;
   position: relative;
