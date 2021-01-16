@@ -444,7 +444,7 @@ section#testimonials {
 #footer {
   background-color: paleturquoise;
   grid-column: container-start / container-end;
-  height: 400px;
+  padding: 6vh 4vw;
 }
 
 .header-main-nav {
@@ -452,18 +452,6 @@ section#testimonials {
   top: 0;
   left: 0;
   z-index: 2;
-}
-
-.header-main-nav input[type="checkbox"] {
-  position: absolute;
-  top: 3rem;
-  left: 3rem;
-  height: 5rem;
-  width: 5rem;
-  opacity: 0;
-  cursor: pointer;
-
-  z-index: 3;
 }
 
 #discover-more-btn {
@@ -474,25 +462,6 @@ a:hover {
   background-color: #560d0d;
   padding: 10px;
   transition: background-color 0.2s ease-in-out;
-}
-
-.header-main-hamburger {
-  position: absolute;
-  top: 3rem;
-  left: 3rem;
-  height: 5rem;
-  width: 5rem;
-  padding: 0rem;
-  z-index: 2;
-  background-color: yellow;
-  display: grid;
-  place-items: center;
-}
-
-.header-main-hamburger > div {
-  position: relative;
-  height: 0.3rem;
-  width: 100%;
 }
 
 .title-discover-serentity {
