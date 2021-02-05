@@ -475,11 +475,16 @@ section#testimonials {
   color: #560d0d;
 }
 
-.header-main-nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 2;
+.container-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.items {
+  padding: 10px;
+  margin: 30px;
+  color: #fff;
 }
 
 #discover-more-btn {
@@ -526,4 +531,35 @@ a:hover {
 .container-team {
   padding: 2px 16px;
   background-color: paleturquoise;
+}
+
+/*************** 1000px mark***********/
+
+@media screen and (max-width: 1000px) {
+}
+
+/*************** 800px mark***********/
+
+@media screen and (max-width: 800px) {
+  section#about-me {
+    padding: 4vh 3vw;
+    grid-column: center-start / center-end;
+  }
+
+  p {
+    text-align: center;
+    padding-left: 20px;
+  }
+
+  .title-discover-serentity {
+    text-align: center;
+  }
+
+  section#booking {
+    grid-column: center-start / center-end;
+  }
+
+  #main-title {
+    font-size: 80px;
+  }
 }

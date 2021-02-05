@@ -8,6 +8,9 @@ body {
   body {
     background-color: royalblue;
   }
+  .items {
+    font-size: 15px;
+  }
 }
 
 .container-flex {
