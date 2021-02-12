@@ -26,28 +26,76 @@ body {
 
 .title-blog-page {
   text-align: center;
+  font-size: 45px;
 }
 
 .intro-text {
   text-align: center;
 }
-
 .container-blog-posts {
-  background-color: blueviolet;
-  width: 1000px;
-  margin: 30px auto;
+  margin: 50px 50px auto;
+
   display: grid;
-  grid-template-rows: 200px 200px;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 50px;
+  grid-template-rows: 660px 660px;
+  grid-template-columns: 360px 360px 360px;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
 }
 
-.item {
-  padding: 20px;
-  font-size: 30px;
+.card {
+  border-radius: 10px 10px 10px 10px;
   color: white;
 }
 
-.item-1 {
+.london {
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card--1 {
+  background-color: white;
+}
+.card--2 {
   background-color: pink;
+}
+.card--3 {
+  background-color: pink;
+}
+.card--4 {
+  background-color: pink;
+}
+.card--5 {
+  background-color: pink;
+}
+.card--6 {
+  background-color: pink;
+}
+
+.btn-read-more {
+  background-color: #2a3038;
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  padding: 10px 5px;
+}
+
+.bottom-half {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+.bottom-half p {
+  margin: 0 auto;
+}
+
+.underline-text {
+  text-decoration: underline;
+  opacity: 0.5;
+}
+
+h2 {
+  margin: 0 auto;
 }
