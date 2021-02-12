@@ -25,6 +25,7 @@ body {
 }
 
 .title-blog-page {
+  margin: 0;
   text-align: center;
   font-size: 45px;
 }
@@ -33,7 +34,7 @@ body {
   text-align: center;
 }
 .container-blog-posts {
-  margin: 50px 50px auto;
+  margin: 40px 130px auto;
 
   display: grid;
   grid-template-rows: 660px 660px;
@@ -55,19 +56,19 @@ body {
   background-color: white;
 }
 .card--2 {
-  background-color: pink;
+  background-color: white;
 }
 .card--3 {
-  background-color: pink;
+  background-color: white;
 }
 .card--4 {
-  background-color: pink;
+  background-color: white;
 }
 .card--5 {
-  background-color: pink;
+  background-color: white;
 }
 .card--6 {
-  background-color: pink;
+  background-color: white;
 }
 
 .btn-read-more {
