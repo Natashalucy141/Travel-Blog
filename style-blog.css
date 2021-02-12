@@ -1,7 +1,7 @@
 body {
   font-family: "Titillium Web", sans-serif;
   line-height: 1.7;
-  background-color: antiquewhite;
+  background-color: #fde0ff;
 }
 
 @media (max-width: 600px) {
@@ -22,5 +22,32 @@ body {
 .items {
   padding: 10px;
   margin: 30px;
-  color: #fff;
+}
+
+.title-blog-page {
+  text-align: center;
+}
+
+.intro-text {
+  text-align: center;
+}
+
+.container-blog-posts {
+  background-color: blueviolet;
+  width: 1000px;
+  margin: 30px auto;
+  display: grid;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 50px;
+}
+
+.item {
+  padding: 20px;
+  font-size: 30px;
+  color: white;
+}
+
+.item-1 {
+  background-color: pink;
 }
