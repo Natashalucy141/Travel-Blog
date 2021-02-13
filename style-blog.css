@@ -66,21 +66,28 @@ body {
 
 .card--1 {
   background-color: white;
+
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
 }
 .card--2 {
   background-color: white;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
 }
 .card--3 {
   background-color: white;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
 }
 .card--4 {
   background-color: white;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
 }
 .card--5 {
   background-color: white;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
 }
 .card--6 {
   background-color: white;
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
 .btn-read-more {
